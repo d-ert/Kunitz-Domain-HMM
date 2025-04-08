@@ -3,7 +3,7 @@
 ## Overview
 
 This script automates a bioinformatics pipeline designed to:
-1.  Identify candidate Kunitz domain (Pfam: PF00014) sequences and structures from an RCSB PDB report.
+1.  Identify candidate Kunitz domain (Pfam: `PF00014`) sequences and structures from an RCSB PDB report.
 2.  Filter redundant sequences using CD-HIT.
 3.  Split data into training and testing sets.
 4.  Download full PDB structures and extract the specific Kunitz domain regions based on PDBe API boundary information.
@@ -12,6 +12,7 @@ This script automates a bioinformatics pipeline designed to:
 7.  Validate the HMM performance on a test set containing known Kunitz domains and negative sequences.
 8.  Use the validated HMM to search for potential Kunitz domains within the SwissProt database.
 9.  Evaluate the SwissProt search results against known annotations.
+
 
 ## Prerequisites
 
