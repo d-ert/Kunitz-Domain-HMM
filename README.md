@@ -25,12 +25,37 @@ This script automates a bioinformatics pipeline designed to:
 
 ## How to Run
 
+There are two primary ways to execute this pipeline:
+
+**1. Using the Python Script (`kunitz_hmm.py`):**
+
+This method runs the entire pipeline sequentially from start to finish.
+
 1.  Ensure all prerequisites (Python libraries, external tools) are installed and accessible.
-2.  Place the required input files in the correct directories. There is 2 needed: A report from RCSB.org, and the SwissProt database in fasta form placed in -> (`data/input_data/`, `data/swiss_data/`).
-3.  Modify the MUSTANG executable path in the `run_mustang_alignment` function if necessary.
+2.  Place the required input files in the correct directories (`data/input_data/`, `data/swiss_data/`). See *Directory Structure & Input Data*.
+3.  Modify the MUSTANG executable path in the `run_mustang_alignment` function within the script if necessary.
 4.  Execute the script from your terminal:
     ```bash
-    python kunitz_hmm.py
+    python kunitz_pipeline.py
+    ```
+
+**2. Using the Jupyter Notebook (`Pipeline Notebook.ipynb`):**
+
+This repository also includes a Jupyter Notebook which mirrors the steps in the Python script. The notebook format is ideal for:
+*   Running the pipeline step-by-step.
+*   Visualizing plots directly within the notebook interface.
+*   Interactive analysis and easier modification of intermediate steps.
+
+1.  Ensure prerequisites are met, including Jupyter Lab or Jupyter Notebook (`pip install jupyterlab` or `pip install notebook`).
+2.  Place the required input files in the correct directories as described above.
+3.  Modify the MUSTANG executable path within the relevant notebook cell if needed.
+4.  Launch Jupyter from your terminal in the project's root directory:
+    ```bash
+    jupyter lab
+    ```
+    *or*
+    ```bash
+    jupyter notebook
     ```
 
 ## Running on Linux/macOS (WSL Note)
