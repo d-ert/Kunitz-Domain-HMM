@@ -18,7 +18,7 @@ This script automates a bioinformatics pipeline designed to:
 
 *   **Python 3:** With libraries specified in the `import` statements 
 *   **WSL (for Windows users):** As this script was developed on Windows, it uses WSL to call the external tools. See the **Running on Linux/macOS** section below.
-*   *   **External Bioinformatics Tools:**
+*   **External Bioinformatics Tools:**
     *   [CD-HIT](https://github.com/weizhongli/cdhit)
     *   [MUSTANG](http://laskowskilab.org/mustang/) (Ensure the path in `run_mustang_alignment` is correct or it's in your PATH)
     *   [HMMER Suite](http://hmmer.org/) (`hmmbuild`, `hmmpress`, `hmmsearch`)
