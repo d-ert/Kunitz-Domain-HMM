@@ -1,0 +1,246 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  data/hmms/kunitz_pf00014.hmm
+# target sequence database:        data/test_data/combined_test_sequences.fasta
+# per-dom hits tabular output:     data/test_data/test_set_search.domtbl
+# sequence inclusion threshold:    E-value <= 0.001
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       mustang_aligned  [M=53]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+    1.5e-26   88.0   0.6    1.6e-26   87.9   0.6    1.0  1  2ZJX_A_kunitz                   
+    2.3e-26   87.4   0.7    2.5e-26   87.3   0.7    1.0  1  3WNY_A_kunitz                   
+    7.1e-21   69.8   5.8    7.5e-21   69.7   5.8    1.0  1  1DTX_A_kunitz                   
+    1.6e-18   62.3   6.8    1.7e-18   62.2   6.8    1.0  1  5YV7_A_kunitz                   
+  ------ inclusion threshold ------
+       0.46    6.4   0.0       0.61    6.0   0.0    1.2  1  tr|A0A8J2L2J9|A0A8J2L2J9_9HEXA  Peptidase S1 domain-containing p
+       0.87    5.5   0.0        1.3    5.0   0.0    1.2  1  tr|A0A137NQK6|A0A137NQK6_CONC2  Trypsin-domain-containing protei
+        1.2    5.0   0.1        1.4    4.8   0.1    1.3  1  tr|A0A6V7LUE9|A0A6V7LUE9_9HYME  Peptidase S1 domain-containing p
+        2.4    4.1   0.0        2.1    4.2   0.0    1.1  1  tr|A0A443S9F4|A0A443S9F4_9ACAR  Serine protease-like protein 10 
+          3    3.7   1.8          4    3.4   1.8    1.4  1  tr|A0A822CS00|A0A822CS00_9BILA  Peptidase S1 domain-containing p
+          3    3.7   0.0        3.3    3.6   0.0    1.2  1  tr|Q4T5M1|Q4T5M1_TETNG          (spotted green pufferfish) hypot
+        3.2    3.7   0.0        4.1    3.3   0.0    1.2  1  tr|A0A8B9UXI1|A0A8B9UXI1_9AVES  Peptidase S1 domain-containing p
+        3.5    3.5   0.1        5.8    2.8   0.1    1.4  1  tr|A0A6V7JLH7|A0A6V7JLH7_9HYME  Peptidase S1 domain-containing p
+        4.9    3.1   0.1        7.2    2.5   0.1    1.2  1  tr|Q90WQ4|Q90WQ4_9TELE          trypsin (Fragment) OS=Paralabrax
+          6    2.8   0.9        7.3    2.5   0.2    1.7  2  tr|A0A815VPR2|A0A815VPR2_9BILA  Peptidase S1 domain-containing p
+        7.7    2.5   0.0         20    1.1   0.0    1.6  2  tr|Q5V9S4|Q5V9S4_MICHU          Neuropsin (Fragment) OS=Mico hum
+
+
+Domain annotation for each sequence (and alignments):
+>> 2ZJX_A_kunitz  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.9   0.6   3.1e-28   1.6e-26       1      52 [.       1      52 [.       1      53 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.9 bits;  conditional E-value: 3.1e-28
+  mustang_aligned  1 fCllpadaGpcraaisryyYnakekkcqsFvYgGcegneNnFateeeclrtC 52
+                     fCl+p+++Gp++a+i+ry+Ynak++ +q+FvYgG ++++NnF+++e++lrtC
+    2ZJX_A_kunitz  1 FCLEPPYTGPGKARIIRYFYNAKAGLAQTFVYGGARAKRNNFKSAEDALRTC 52
+                     8*************************************************** PP
+
+>> 3WNY_A_kunitz  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.3   0.7   4.6e-28   2.5e-26       1      53 []       1      53 []       1      53 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.3 bits;  conditional E-value: 4.6e-28
+  mustang_aligned  1 fCllpadaGpcraaisryyYnakekkcqsFvYgGcegneNnFateeeclrtCa 53
+                     fCl+p++aGp++a+i+ry+Ynak++++q+FvYgG+++++NnFa+++++l++Ca
+    3WNY_A_kunitz  1 FCLEPPYAGPGKARIIRYFYNAKAGAAQAFVYGGVRAKRNNFASAADALAACA 53
+                     8***************************************************6 PP
+
+>> 1DTX_A_kunitz  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.7   5.8   1.4e-22   7.5e-21       1      52 [.       1      52 [.       1      53 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 69.7 bits;  conditional E-value: 1.4e-22
+  mustang_aligned  1 fCllpadaGpcraaisryyYnakekkcqsFvYgGcegneNnFateeeclrtC 52
+                     +C l  + G+c + i+ +yYn+k+k+c++F + Gc+gn+N+F+t eec+rtC
+    1DTX_A_kunitz  1 LCILHRNPGRCYDKIPAFYYNQKKKQCERFDWSGCGGNSNRFKTIEECRRTC 52
+                     59999*********************************************** PP
+
+>> 5YV7_A_kunitz  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.2   6.8   3.2e-20   1.7e-18       1      52 [.       1      52 [.       1      53 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 62.2 bits;  conditional E-value: 3.2e-20
+  mustang_aligned  1 fCllpadaGpcraaisryyYnakekkcqsFvYgGcegneNnFateeeclrtC 52
+                     +C++p   G+c++ +s++y+  ++kkc+ F + Gc+gn+N+F+t  ec+++C
+    5YV7_A_kunitz  1 YCKEPVRIGSCKKQFSSFYFKWTAKKCLPFLFSGCGGNANRFQTIGECRKKC 52
+                     7*************************************************** PP
+
+>> tr|A0A8J2L2J9|A0A8J2L2J9_9HEXA  Peptidase S1 domain-containing protein (Fragment) OS=Allacma fusca OX=39272 GN=AFUS01
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.0   0.0     0.011      0.61      24      36 ..       6      18 ..       3      31 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 6.0 bits;  conditional E-value: 0.011
+                 mustang_aligned 24 ekkcqsFvYgGce 36
+                                    ++ c++ +YgG +
+  tr|A0A8J2L2J9|A0A8J2L2J9_9HEXA  6 NETCNKAWYGGIQ 18
+                                    689********75 PP
+
+>> tr|A0A137NQK6|A0A137NQK6_CONC2  Trypsin-domain-containing protein (Fragment) OS=Conidiobolus coronatus (strain ATCC 2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.0   0.0     0.024       1.3      26      43 ..      21      38 ..      19      42 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 5.0 bits;  conditional E-value: 0.024
+                 mustang_aligned 26 kcqsFvYgGcegneNnFa 43
+                                    +c++  Y G+  + N+F 
+  tr|A0A137NQK6|A0A137NQK6_CONC2 21 SCAKANYPGVYTKVNQFI 38
+                                    699999**********96 PP
+
+>> tr|A0A6V7LUE9|A0A6V7LUE9_9HYME  Peptidase S1 domain-containing protein (Fragment) OS=Bracon brevicornis OX=1563983 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.8   0.1     0.027       1.4      27      44 ..       8      25 ..       4      39 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 4.8 bits;  conditional E-value: 0.027
+                 mustang_aligned 27 cqsFvYgGcegneNnFat 44
+                                    c++  Y G+    N++ t
+  tr|A0A6V7LUE9|A0A6V7LUE9_9HYME  8 CAAAGYPGVYSRVNRYIT 25
+                                    88889***********98 PP
+
+>> tr|A0A443S9F4|A0A443S9F4_9ACAR  Serine protease-like protein 10 OS=Leptotrombidium deliense OX=299467 GN=B4U80_04913 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0      0.04       2.1      21      49 ..      10      38 ..       1      40 [] 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 4.2 bits;  conditional E-value: 0.04
+                 mustang_aligned 21 nakekkcqsFvYgGcegneNnFateeecl 49
+                                     +  ++  +   gG   n+N   t++ cl
+  tr|A0A443S9F4|A0A443S9F4_9ACAR 10 QVSIMSSSRHLCGGSIINQNWVLTAAHCL 38
+                                    55556667777899999********9997 PP
+
+>> tr|A0A822CS00|A0A822CS00_9BILA  Peptidase S1 domain-containing protein (Fragment) OS=Rotaria sp. Silwood1 OX=2762511 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   1.8     0.075         4      10      30 ..       2      22 ..       2      42 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 3.4 bits;  conditional E-value: 0.075
+                 mustang_aligned 10 pcraaisryyYnakekkcqsF 30
+                                    +cr++  +  Y+ +++ c++ 
+  tr|A0A822CS00|A0A822CS00_9BILA  2 SCRGFWASSKYDTQKQMCAAT 22
+                                    588888888899999999764 PP
+
+>> tr|Q4T5M1|Q4T5M1_TETNG  (spotted green pufferfish) hypothetical protein (Fragment) OS=Tetraodon nigroviridis OX=99883
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0     0.062       3.3      31      50 ..      25      44 .]      14      44 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 3.6 bits;  conditional E-value: 0.062
+         mustang_aligned 31 vYgGcegneNnFateeeclr 50
+                            + gG   n+N   t++ c+r
+  tr|Q4T5M1|Q4T5M1_TETNG 25 TCGGILINSNFVLTAAHCQR 44
+                            56999999999999999986 PP
+
+>> tr|A0A8B9UXI1|A0A8B9UXI1_9AVES  Peptidase S1 domain-containing protein OS=Anas zonorhyncha OX=75864 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0     0.078       4.1      27      49 ..      30      52 ..      23      53 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 3.3 bits;  conditional E-value: 0.078
+                 mustang_aligned 27 cqsFvYgGcegneNnFateeecl 49
+                                      +F+ gG    +N   t++ c 
+  tr|A0A8B9UXI1|A0A8B9UXI1_9AVES 30 GDKFICGGTLVARNWVLTAAHCH 52
+                                    5789**********999999995 PP
+
+>> tr|A0A6V7JLH7|A0A6V7JLH7_9HYME  Peptidase S1 domain-containing protein (Fragment) OS=Bracon brevicornis OX=1563983 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.1      0.11       5.8       8      21 ..      19      32 ..      16      37 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.11
+                 mustang_aligned  8 aGpcraaisryyYn 21
+                                     G+c   ++ ++ n
+  tr|A0A6V7JLH7|A0A6V7JLH7_9HYME 19 CGRCSPIFPAFFTN 32
+                                    69*********976 PP
+
+>> tr|Q90WQ4|Q90WQ4_9TELE  trypsin (Fragment) OS=Paralabrax maculatofasciatus OX=147646 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.1      0.14       7.2      33      50 ..      12      29 ..       6      30 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 2.5 bits;  conditional E-value: 0.14
+         mustang_aligned 33 gGcegneNnFateeeclr 50
+                            gG   neN   +++ c +
+  tr|Q90WQ4|Q90WQ4_9TELE 12 GGSLVNENWVVSAAHCYK 29
+                            89999****9**999976 PP
+
+>> tr|A0A815VPR2|A0A815VPR2_9BILA  Peptidase S1 domain-containing protein (Fragment) OS=Rotaria sordida OX=392033 GN=ZHD
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.2      0.14       7.3      20      29 ..      12      21 ..       2      33 .. 0.80
+   2 ?   -1.1   0.1       1.8        95      28      35 ..      36      43 .]      28      43 .] 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 2.5 bits;  conditional E-value: 0.14
+                 mustang_aligned 20 Ynakekkcqs 29
+                                    Y+ k++ c++
+  tr|A0A815VPR2|A0A815VPR2_9BILA 12 YDTKKQICAN 21
+                                    9999999986 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 1.8
+                 mustang_aligned 28 qsFvYgGc 35
+                                    + ++Y+G+
+  tr|A0A815VPR2|A0A815VPR2_9BILA 36 LMYQYNGQ 43
+                                    56778875 PP
+
+>> tr|Q5V9S4|Q5V9S4_MICHU  Neuropsin (Fragment) OS=Mico humeralifer OX=52232 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.0       1.9     1e+02      37      49 ..       4      16 ..       2      18 .. 0.69
+   2 ?    1.1   0.0      0.38        20      32      50 ..      34      52 ..      23      53 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 1.9
+         mustang_aligned 37 gneNnFateeecl 49
+                            ++eN+    +ec+
+  tr|Q5V9S4|Q5V9S4_MICHU  4 AQENKVLGGQECQ 16
+                            6777777777775 PP
+
+  == domain 2  score: 1.1 bits;  conditional E-value: 0.38
+         mustang_aligned 32 YgGcegneNnFateeeclr 50
+                             gG+   +N   t++ c +
+  tr|Q5V9S4|Q5V9S4_MICHU 34 CGGVLVGRNWVVTAAHCKK 52
+                            5888888999999999975 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (53 nodes)
+Target sequences:                        801  (41789 residues searched)
+Passed MSV filter:                       801  (1); expected 801.0 (1)
+Passed bias filter:                      801  (1); expected 801.0 (1)
+Passed Vit filter:                       801  (1); expected 801.0 (1)
+Passed Fwd filter:                       801  (1); expected 801.0 (1)
+Initial search space (Z):                801  [actual number of targets]
+Domain search space  (domZ):              15  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.15
+# Mc/sec: 14.27
+//
+[ok]

@@ -1,0 +1,186 @@
+>Cluster 0
+0	165aa, >3WNY_B... *
+>Cluster 1
+0	147aa, >1BIK_A... *
+1	59aa, >4PTI_X... at 98.31%
+>Cluster 2
+0	60aa, >4ISL_B... at 98.33%
+1	62aa, >4ISN_B... at 95.16%
+2	60aa, >4ISN_B... at 98.33%
+3	145aa, >5EZD_A... *
+>Cluster 3
+0	127aa, >2KNT_E... *
+>Cluster 4
+0	58aa, >1AAL_A... at 96.55%
+1	58aa, >1B0C_B... at 100.00%
+2	58aa, >1BHC_A... at 100.00%
+3	58aa, >1BPI_A... at 100.00%
+4	58aa, >1BPT_A... at 98.28%
+5	58aa, >1BRC_P... at 100.00%
+6	58aa, >1BTI_A... at 98.28%
+7	58aa, >1BZ5_A... at 100.00%
+8	58aa, >1BZ5_I... at 100.00%
+9	58aa, >1BZ5_D... at 100.00%
+10	58aa, >1BZ5_B... at 100.00%
+11	58aa, >1DTX_B... at 100.00%
+12	65aa, >1DTX_I... at 100.00%
+13	58aa, >1FAN_A... at 98.28%
+14	58aa, >1FAN_I... at 100.00%
+15	58aa, >1KTH_D... at 100.00%
+16	58aa, >1NAG_A... at 98.28%
+17	58aa, >1NAG_I... at 96.55%
+18	58aa, >1NAG_I... at 96.55%
+19	58aa, >1NAG_I... at 96.55%
+20	58aa, >1NAG_B... at 96.55%
+21	58aa, >1NAG_B... at 96.55%
+22	58aa, >1NAG_B... at 96.55%
+23	58aa, >1NAG_B... at 96.55%
+24	58aa, >1QLQ_B... at 96.55%
+25	58aa, >1QLQ_B... at 96.55%
+26	58aa, >1QLQ_B... at 96.55%
+27	58aa, >1QLQ_B... at 96.55%
+28	58aa, >1QLQ_I... at 100.00%
+29	56aa, >1Y62_B... at 100.00%
+30	58aa, >1Y62_I... at 96.55%
+31	58aa, >1Y62_I... at 98.28%
+32	58aa, >1Y62_I... at 98.28%
+33	58aa, >1Y62_I... at 100.00%
+34	58aa, >1Y62_B... at 98.28%
+35	58aa, >2HEX_A... at 100.00%
+36	58aa, >2HEX_I... at 100.00%
+37	58aa, >2KNT_I... at 100.00%
+38	58aa, >2ZVX_I... at 96.55%
+39	58aa, >2ZVX_I... at 96.55%
+40	58aa, >2ZVX_I... at 96.55%
+41	58aa, >2ZVX_I... at 96.55%
+42	58aa, >2ZVX_I... at 96.55%
+43	58aa, >2ZVX_I... at 100.00%
+44	58aa, >2ZVX_I... at 96.55%
+45	58aa, >2ZVX_I... at 96.55%
+46	58aa, >2ZVX_I... at 96.55%
+47	58aa, >2ZVX_I... at 96.55%
+48	58aa, >3D65_I... at 100.00%
+49	43aa, >3D65_J... at 100.00%
+50	58aa, >3D65_J... at 100.00%
+51	58aa, >3LDI_A... at 100.00%
+52	58aa, >3LDJ_A... at 100.00%
+53	58aa, >3LDM_A... at 100.00%
+54	58aa, >3OFW_I... at 100.00%
+55	58aa, >3OFW_E... at 96.55%
+56	58aa, >3OFW_E... at 96.55%
+57	65aa, >3OFW_I... at 100.00%
+58	58aa, >3OFW_E... at 100.00%
+59	100aa, >3WNY_I... *
+60	58aa, >4BQD_E... at 100.00%
+61	58aa, >4PTI_A... at 100.00%
+62	58aa, >4PTI_I... at 98.28%
+63	58aa, >4U32_C... at 100.00%
+64	55aa, >4U32_C... at 100.00%
+65	58aa, >4U32_I... at 100.00%
+66	58aa, >4U32_I... at 98.28%
+67	58aa, >4U32_I... at 98.28%
+68	58aa, >5PTI_A... at 100.00%
+69	55aa, >5YV7_I... at 100.00%
+70	58aa, >6F1F_A... at 100.00%
+71	58aa, >6PTI_A... at 100.00%
+72	57aa, >6YHY_I... at 98.25%
+73	58aa, >7PTI_A... at 96.55%
+74	58aa, >7PTI_D... at 98.28%
+75	58aa, >7PTI_D... at 98.28%
+76	58aa, >8PTI_A... at 98.28%
+77	58aa, >9PTI_A... at 100.00%
+>Cluster 5
+0	79aa, >4BQD_A... at 100.00%
+1	86aa, >5M4V_K... *
+>Cluster 6
+0	81aa, >4U32_E... *
+1	81aa, >5M4V_C... at 96.30%
+2	56aa, >5M4V_D... at 96.43%
+3	81aa, >5M4V_C... at 97.53%
+4	81aa, >6F1F_E... at 96.30%
+5	80aa, >6F1F_E... at 97.50%
+>Cluster 7
+0	80aa, >5ZJ3_B... *
+>Cluster 8
+0	75aa, >1Y62_I... *
+>Cluster 9
+0	58aa, >1QLQ_C... at 100.00%
+1	66aa, >4BQD_K... *
+>Cluster 10
+0	63aa, >1Y62_B... *
+>Cluster 11
+0	63aa, >3WNY_A... *
+>Cluster 12
+0	61aa, >1BTI_B... *
+>Cluster 13
+0	61aa, >3LDM_B... *
+1	60aa, >3OFW_A... at 100.00%
+2	54aa, >3OFW_D... at 100.00%
+3	55aa, >3OFW_B... at 98.18%
+>Cluster 14
+0	60aa, >1Y62_A... at 98.33%
+1	61aa, >6Q61_A... *
+2	61aa, >6Q6C_A... at 96.72%
+>Cluster 15
+0	60aa, >4ISN_B... *
+>Cluster 16
+0	60aa, >5YV7_A... *
+1	60aa, >6KZF_A... at 98.33%
+>Cluster 17
+0	59aa, >1DTX_A... *
+>Cluster 18
+0	58aa, >1DTX_B... at 96.55%
+1	59aa, >1QLQ_B... *
+>Cluster 19
+0	59aa, >3BYB_A... *
+1	57aa, >3D65_I... at 100.00%
+2	59aa, >3OFW_C... at 100.00%
+3	59aa, >5ZJ3_A... at 100.00%
+>Cluster 20
+0	59aa, >6YHY_A... *
+>Cluster 21
+0	58aa, >1AAP_A... *
+1	56aa, >1BRC_I... at 100.00%
+2	54aa, >1BZ5_D... at 100.00%
+3	58aa, >1QLQ_B... at 100.00%
+4	57aa, >1Y62_B... at 98.25%
+5	52aa, >3D65_E... at 100.00%
+>Cluster 22
+0	58aa, >1G6X_A... *
+1	58aa, >1K6U_A... at 100.00%
+2	58aa, >1QLQ_A... at 100.00%
+>Cluster 23
+0	58aa, >1KNT_A... *
+1	58aa, >1KTH_A... at 100.00%
+2	58aa, >2KNT_A... at 100.00%
+>Cluster 24
+0	58aa, >2ZJX_A... *
+1	58aa, >2ZVX_A... at 98.28%
+2	58aa, >5XX2_A... at 98.28%
+3	58aa, >5XX3_A... at 98.28%
+4	58aa, >5XX4_A... at 98.28%
+5	58aa, >5XX5_A... at 98.28%
+6	58aa, >5XX6_A... at 98.28%
+7	58aa, >5XX7_A... at 98.28%
+8	58aa, >5XX8_A... at 98.28%
+>Cluster 25
+0	58aa, >5JB4_A... *
+1	58aa, >5JB5_A... at 98.28%
+2	58aa, >5JB6_A... at 96.55%
+>Cluster 26
+0	58aa, >5JB7_A... *
+>Cluster 27
+0	57aa, >5M4V_A... *
+>Cluster 28
+0	56aa, >1Y62_B... *
+1	56aa, >1Y62_B... at 96.43%
+>Cluster 29
+0	56aa, >5M4V_D... *
+>Cluster 30
+0	55aa, >1DTX_I... *
+>Cluster 31
+0	55aa, >4U32_X... *
+>Cluster 32
+0	55aa, >5YV7_I... *
+>Cluster 33
+0	38aa, >5JB7_Y... *
