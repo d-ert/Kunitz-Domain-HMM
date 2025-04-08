@@ -16,10 +16,7 @@ This script automates a bioinformatics pipeline designed to:
 
 ## Prerequisites
 
-*   **Python 3:** With libraries specified in the `import` statements (e.g., `pandas`, `numpy`, `requests`, `BioPython`, `scikit-learn`, `matplotlib`, `seaborn`). Install using pip:
-    ```bash
-    pip install pandas numpy requests biopython scikit-learn matplotlib seaborn
-    ```
+*   **Python 3:** With libraries specified in the `import` statements 
 *   **External Bioinformatics Tools:**
     *   [CD-HIT](https://github.com/weizhongli/cdhit)
     *   [MUSTANG](http://laskowskilab.org/mustang/) (Ensure the path in `run_mustang_alignment` is correct or it's in your PATH)
@@ -29,13 +26,12 @@ This script automates a bioinformatics pipeline designed to:
 ## How to Run
 
 1.  Ensure all prerequisites (Python libraries, external tools) are installed and accessible.
-2.  Place the required input files in the correct directories (`data/input_data/`, `data/swiss_data/`).
+2.  Place the required input files in the correct directories. There is 2 needed: A report from RCSB.org, and the SwissProt database in fasta form placed in -> (`data/input_data/`, `data/swiss_data/`).
 3.  Modify the MUSTANG executable path in the `run_mustang_alignment` function if necessary.
 4.  Execute the script from your terminal:
     ```bash
-    python your_script_name.py
+    python kunitz_hmm.py
     ```
-    (Replace `your_script_name.py` with the actual name of the Python script).
 
 ## Running on Linux/macOS (WSL Note)
 
@@ -48,23 +44,30 @@ The following functions include a `wsl=True` argument and prepend `wsl` to the c
 
 **If you are running this script on a native Linux or macOS environment** where these tools are installed and available in your system's PATH, you **must** modify the calls to these functions within the `main()` block. Change the `wsl=True` argument (or its default) to `wsl=False`.
 
-*Example:*
-Change:
-```python
-# Call in main() section might look like this by default:
-run_cd_hit(input_fasta=cd_hit_input, output_fasta=cd_hit_output)
-# or explicitly:
-# run_cd_hit(input_fasta=..., output_fasta=..., wsl=True)
+ version:
 
-to:
+*   **Example:**
 
-# Add wsl=False:
-run_cd_hit(input_fasta=cd_hit_input, output_fasta=cd_hit_output, wsl=False)
+    Modify the function calls in the `main()` section.
 
-Apply this change to all calls of the listed functions (run_cd_hit, run_mustang_alignment, build_hmm, hmmpress, run_hmmsearch) in the main() part of the script.
+    *Change this type of call:*
+    ```python
+    # Call in main() section might look like this by default:
+    run_cd_hit(input_fasta=cd_hit_input, output_fasta=cd_hit_output)
+    # or explicitly:
+    # run_cd_hit(input_fasta=..., output_fasta=..., wsl=True)
+    ```
 
+    *To this:*
+    ```python
+    # Add wsl=False:
+    run_cd_hit(input_fasta=cd_hit_input, output_fasta=cd_hit_output, wsl=False)
+    ```
 
-Output
+    Apply this change to all calls of the listed functions (`run_cd_hit`, `run_mustang_alignment`, `build_hmm`, `hmmpress`, `run_hmmsearch`) within the `main()` part of the script.
+    
+## Output
+
 The script will:
 * Populate the directories under data/ with intermediate and final files (FASTA sequences, PDB structures, alignments, HMM files, search results).
 * Generate HMM search output files (.domtblout, .txt) in data/test_data/ and data/swiss_data/.
