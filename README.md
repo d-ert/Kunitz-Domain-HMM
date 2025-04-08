@@ -1,4 +1,4 @@
-# Kunitz Domain (PF00014) HMM Pipeline
+# Kunitz Domain HMM Pipeline
 
 ## Overview
 
