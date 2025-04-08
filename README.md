@@ -17,11 +17,32 @@ This script automates a bioinformatics pipeline designed to:
 ## Prerequisites
 
 *   **Python 3:** With libraries specified in the `import` statements 
-*   **External Bioinformatics Tools:**
+*   **WSL (for Windows users):** As this script was developed on Windows, it uses WSL to call the external tools. See the **Running on Linux/macOS** section below.
+*   *   **External Bioinformatics Tools:**
     *   [CD-HIT](https://github.com/weizhongli/cdhit)
     *   [MUSTANG](http://laskowskilab.org/mustang/) (Ensure the path in `run_mustang_alignment` is correct or it's in your PATH)
     *   [HMMER Suite](http://hmmer.org/) (`hmmbuild`, `hmmpress`, `hmmsearch`)
-*   **WSL (for Windows users):** As this script was developed on Windows, it uses WSL to call the external tools. See the **Running on Linux/macOS** section below.
+
+## External Tools & Acknowledgements
+
+This pipeline utilizes the following essential external bioinformatics software. We thank the developers for their contributions and recommend citing these tools if you use this pipeline in your own work.
+
+*   **HMMER:** Used for profile HMM construction (`hmmbuild`), HMM database preparation (`hmmpress`), and searching sequence databases (`hmmsearch`).
+    *   Website: [http://hmmer.org/](http://hmmer.org/)
+    *   Citation: Eddy SR. (2011) Accelerated Profile HMM Searches. *PLoS Comput Biol* 7(10): e1002195. [doi:10.1371/journal.pcbi.1002195](https://doi.org/10.1371/journal.pcbi.1002195)
+
+*   **CD-HIT:** Employed for clustering protein sequences to remove redundancy (`cd-hit`).
+    *   Repository: [https://github.com/weizhongli/cdhit](https://github.com/weizhongli/cdhit)
+    *   Citations:
+        *   Li W, Godzik A. (2006) Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences. *Bioinformatics* 22(13):1658-9. [doi:10.1093/bioinformatics/btl158](https://doi.org/10.1093/bioinformatics/btl158)
+        *   Fu L, Niu B, Zhu Z, Wu S, Li W. (2012) CD-HIT: accelerated for clustering the next-generation sequencing data. *Bioinformatics* 28(23):3150-2. [doi:10.1093/bioinformatics/bts565](https://doi.org/10.1093/bioinformatics/bts565)
+
+*   **MUSTANG:** Utilized for performing multiple *structure* alignment on the extracted Kunitz domain PDB files.
+    *   Website: [http://laskowskilab.org/mustang/](http://laskowskilab.org/mustang/)
+    *   Citation: Konagurthu AS, Whisstock JC, Stuckey PJ, Lesk AM. (2006) MUSTANG: a multiple structural alignment algorithm. *Proteins* 64(3):559-74. [doi:10.1002/prot.21028](https://doi.org/10.1002/prot.20921)
+
+Please ensure these tools are installed and accessible in your environment before running the pipeline.
+
 
 ## How to Run
 
