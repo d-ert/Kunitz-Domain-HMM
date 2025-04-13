@@ -48,7 +48,7 @@ Please ensure these tools are installed and accessible in your environment befor
 
 There are two primary ways to execute this pipeline:
 
-**1. Using the Python Script (`kunitz_hmm.py`):**
+**1. Using (`kunitz_hmm.py`):**
 
 This method runs the entire pipeline sequentially from start to finish.
 
@@ -60,7 +60,17 @@ This method runs the entire pipeline sequentially from start to finish.
     python kunitz_pipeline.py
     ```
 
-**2. Using the Jupyter Notebook (`Pipeline Notebook.ipynb`):**
+**2. Using (`pfam_hmm.py`):**
+
+This is a more customizable version of the script which can build HMM models for any PFAM code. It takes PFAM code, RCSB report name and a "no-wsl" flag to be able to run in linux enviroments.
+For example:
+
+   ```bash
+   python pfam_hmm.py --pfam_acc PF00014 --report_name rcsb_report.csv --no-wsl
+   ```
+
+
+**3. Using the Jupyter Notebook (`Pipeline Notebook.ipynb`):**
 
 This repository also includes a Jupyter Notebook which mirrors the steps in the Python script. The notebook format is ideal for:
 *   Running the pipeline step-by-step.
